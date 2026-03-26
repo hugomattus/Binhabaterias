@@ -14,12 +14,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Binha Baterias - Revendedor Autorizado Moura e Heliar. Baterias automotivas com entrega e instalação grátis.">
      <!-- Google tag (gtag.js) -->
+    <script>
+    function gtag_report_conversion(url) {
+    var callback = function () {
+        if (typeof(url) != 'undefined') {
+        window.location = url;
+        }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-11464341905/ETEoCJ64i48cEJHzz9oq',
+        'event_callback': callback
+    });
+    return false;
+    }
+    </script>  
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16650813497"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'AW-16650813497');
+    gtag('config', 'AW-16650813497'); 
     </script>   
 
     <title>Binha Baterias | O Shopping da Sua Bateria</title>
@@ -91,7 +105,7 @@
             </div>
             
             <!-- CTA Button -->
-            <a href="https://wa.me/75997112511" aria-label="Falar no WhatsApp" class="flex items-center bg-[#FFC102] hover:bg-[#FF9501] text-[#002E44] px-4 py-3 rounded-full transition-all duration-200 shadow-lg shadow-orange-500/10 hover:shadow-xl hover:-translate-y-0.5 group uppercase tracking-wide">
+            <a href="https://wa.me/75997112511"  onclick="return gtag_report_conversion('https://wa.me/75997112511');" aria-label="Falar no WhatsApp" class="flex items-center bg-[#FFC102] hover:bg-[#FF9501] text-[#002E44] px-4 py-3 rounded-full transition-all duration-200 shadow-lg shadow-orange-500/10 hover:shadow-xl hover:-translate-y-0.5 group uppercase tracking-wide">
                 <iconify-icon icon="logos:whatsapp-icon" width="24" height="24"></iconify-icon>
             </a>
         </div>
