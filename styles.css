@@ -711,10 +711,15 @@ ul   { list-style: none; }
 .stat-card {
     background-color: var(--color-white);
     border-radius: var(--radius-md);
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid var(--color-border);
     box-shadow: var(--shadow-sm);
     text-align: center;
+}
+
+@media (min-width: 480px) {
+    .stat-card { padding: 2rem; }
+    .stat-card__number { font-size: 2.25rem; }
 }
 
 .stat-card--featured {
@@ -725,7 +730,7 @@ ul   { list-style: none; }
 
 .stat-card__number {
     display: block;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--color-primary);
 }
