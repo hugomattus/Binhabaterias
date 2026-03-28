@@ -348,7 +348,7 @@ ul   { list-style: none; }
 .services {
     background-color: var(--color-white);
     border-bottom: 1px solid var(--color-border);
-    padding: 6rem 1.5rem;
+    padding: 6rem 0;
 }
 
 .services__title {
@@ -413,7 +413,7 @@ ul   { list-style: none; }
 .process {
     background-color: var(--color-bg);
     border-bottom: 1px solid var(--color-border);
-    padding: 6rem 1.5rem;
+    padding: 6rem 0;
     overflow: hidden;
 }
 
@@ -495,7 +495,7 @@ ul   { list-style: none; }
 .categories {
     background-color: var(--color-white);
     border-bottom: 1px solid var(--color-border);
-    padding: 6rem 1.5rem;
+    padding: 6rem 0;
     overflow: hidden;
     position: relative;
 }
@@ -667,7 +667,7 @@ ul   { list-style: none; }
 .about {
     background-color: var(--color-bg);
     border-bottom: 1px solid var(--color-border);
-    padding: 6rem 1.5rem;
+    padding: 6rem 0;
     overflow: hidden;
     content-visibility: auto;
     contain-intrinsic-size: auto 600px;
@@ -747,7 +747,7 @@ ul   { list-style: none; }
 .reviews {
     background-color: var(--color-bg);
     border-top: 1px solid var(--color-border);
-    padding: 6rem 1.5rem;
+    padding: 6rem 0;
 }
 
 .reviews__header {
@@ -823,7 +823,7 @@ ul   { list-style: none; }
 .location {
     background-color: var(--color-white);
     border-top: 1px solid var(--color-border);
-    padding: 6rem 1.5rem;
+    padding: 6rem 0;
 }
 
 .location__inner { display: grid; gap: 3rem; align-items: center; }
@@ -925,7 +925,7 @@ ul   { list-style: none; }
 .instagram {
     background-color: var(--color-white);
     border-top: 1px solid var(--color-border);
-    padding: 6rem 1.5rem;
+    padding: 6rem 0;
 }
 
 .instagram__inner { display: grid; gap: 3.5rem; align-items: center; }
