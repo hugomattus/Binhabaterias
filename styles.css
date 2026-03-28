@@ -641,6 +641,7 @@ ul   { list-style: none; }
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .scroller__inner {
