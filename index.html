@@ -9,17 +9,20 @@
     <title>Binha Baterias | O Shopping da Sua Bateria</title>
     <link rel="icon" type="image/png" href="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/ef746e07-1077-42d6-952e-81f3116cc0fc_3840w.png">
 
-    <!-- Google Analytics — carrega a biblioteca e depois nosso scripts.js -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16650813497"></script>
-    <script src="scripts.js"></script>
+    <script defer src="scripts.js"></script>
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://code.iconify.design">
 
-    <!-- Fontes e Estilos -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fontes (non-blocking) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
+
+    <!-- Estilos -->
     <link rel="stylesheet" href="styles.css">
 
     <!-- Ícones -->
